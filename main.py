@@ -11,7 +11,7 @@ class App():
 
         self.root.geometry("900x500")
         self.root.title("Lockdown Analyser")
-        self.BottomFrame = Frame(root,bg="pale green1")
+        self.BottomFrame = Frame(root,bg="green")
         self.v=8
         self.BottomFrame.grid(row=0,column=3,ipadx=20,ipady=100)
         self.arr = [[0 for i in range(4)] for j in range(4)]
